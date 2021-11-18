@@ -3,7 +3,6 @@ const squareSum = num => {
 
   for (number of num) {
     sum += number ** 2
-    // console.log("sum: ", sum);
   }
   return sum
 }
