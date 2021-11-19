@@ -1,6 +1,7 @@
 function mystery() {
-  var results =
+  const results =
     {sanity: 'Hello'};
-  return
-    results;
+  return results;
 }
+
+console.log(mystery());
