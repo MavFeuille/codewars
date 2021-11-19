@@ -6,5 +6,3 @@ function solution(str) {
   }
   return newStr;
 }
-
-// console.log(reverseString("world"));
