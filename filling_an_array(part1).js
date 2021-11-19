@@ -8,5 +8,3 @@ const arr = N => {
   }
   return arr;
 }
-
-console.log(arr(5));
