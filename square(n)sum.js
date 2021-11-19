@@ -6,5 +6,3 @@ const squareSum = num => {
   }
   return sum
 }
-
-console.log(squareSum([1,2]));
