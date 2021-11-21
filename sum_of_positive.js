@@ -3,7 +3,10 @@ const positiveSum = arr => {
 
   for (item of arr) {
     if (item > 0) {
-      sum += item
+      sum += item;
     }
   }
+  return sum;
 }
+
+positiveSum([1,2,3,4,5])
