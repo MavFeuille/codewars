@@ -8,5 +8,3 @@ const positiveSum = arr => {
   }
   return sum;
 }
-
-positiveSum([1,2,3,4,5])
