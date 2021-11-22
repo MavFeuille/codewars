@@ -12,5 +12,9 @@ const switchItUp = number => {
     9 : 'Nine'
   };
 
-  
+  // console.log("obj[number]: ", obj[number]);
+  return obj[number];
+
 }
+
+// console.log(switchItUp(1));
