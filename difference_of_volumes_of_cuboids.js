@@ -1,12 +1,9 @@
 const findDifference = (a, b) => {
-  let aTotal ;
-  let bTotal ;
+ let aTotal = a.reduce((total, currentValue) => total * currentValue);
+ let bTotal = b.reduce((total, currentValue) => total * currentValue);
 
-  for (items of a) {
-    console.log("items: ", items);
-    aTotal *= items;
-  }
-  console.log("aTotal: ", aTotal);
+ return Math.abs(aTotal - bTotal);
+
 }
 
-findDifference([3, 2, 5], [1, 4, 4]);
+console.log(findDifference([3, 2, 5], [1, 4, 4]));
