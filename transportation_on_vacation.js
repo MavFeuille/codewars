@@ -10,4 +10,3 @@ const rentalCarCost = (d) => {
     return totalCost = d * costPerDay;
   }
 }
-console.log(rentalCarCost(10));
