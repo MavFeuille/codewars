@@ -11,5 +11,3 @@ function findLongest(str) {
   }
     return longest
 }
-
-console.log(findLongest("Take me to tinseltown with you"));
