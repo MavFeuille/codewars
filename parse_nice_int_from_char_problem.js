@@ -1,5 +1,5 @@
 const getAge = inputString => {
-  // console.log(inputString.charAt(0));
-  return inputString.charAt(0)
+  // console.log(Number(inputString.charAt(0)));
+  return Number(inputString.charAt(0))
 }
-// getAge("4 years old");
+getAge("4 years old");
