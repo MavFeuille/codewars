@@ -1,7 +1,3 @@
-// function addFive(num) {
-//   var total = num + 5
-//   return total;
-// }
 
 const addFive = (num) => {
   var total = num + 5
