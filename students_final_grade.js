@@ -8,6 +8,8 @@ const finalGrade = (exams, projects) => {
   } else {
     return 0;
   }
+
+  
 }
 
-console.log(finalGrade(100, 12));
+console.log(finalGrade(85, 5));
