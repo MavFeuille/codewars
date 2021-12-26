@@ -1,5 +1,5 @@
 const hero = (bullets, dragons) => {
-  return bullets % dragons === 0 ? true : false;
+  return bullets / 2 >= dragons ? true : false;
 }
 
-console.log(hero(1500, 751));
+console.log(hero(10, 5));
