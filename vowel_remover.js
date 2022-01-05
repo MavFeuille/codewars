@@ -1,14 +1,15 @@
 const shortcut = (string) => {
-  // let newString = "";
-  const vowels = ["a", "e", "i", "o", "u"];
-  // // const vowels = "a" || "e" || "i" || "o" || "u";
-  // // console.log("vowels: ", vowels)
+  let newString = string.split("");
   
-  // for (let i = 0; i < string.length; i ++) {
-  //   if (string[i] === "a" || "e" || "i" || "o" || "u") {
-  //     console.log(string[i], true)
-  //   }
-  // }
+  for (let i = 0; i < newString.length; i ++) {
+    if (newString[i] === "a" || newString[i] === "e" || newString[i] === "i" || newString[i] === "o" || newString[i] === "u") {
+      // console.log(newString[i], true)
+      newString[i]= "";
+    }
+    // console.log("newString in for loop: ", newString);
+    // console.log(newString.join(""));
+  }
+  return newString.join("");
 
   
 }
