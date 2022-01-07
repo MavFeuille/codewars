@@ -1,5 +1,5 @@
 const dutyFree = (normPrice, discount, hol) => {
-  let discountPercentage = discount / 100
+
   return Math.floor(hol / (normPrice * discountPercentage));
 }
 
