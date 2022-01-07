@@ -1,6 +1,6 @@
 const DNAtoRNA = (dna) => {
-  let dna = "GCAT";
-
-  return dna.replace("T", "U");
+ 
+  return dna.replace(/T/g, "U");
 }
 
+console.log(DNAtoRNA("GCAT"));
