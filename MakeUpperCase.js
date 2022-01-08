@@ -1,5 +1,5 @@
 const makeUpperCase = (str) => {
-  console.log(str.toUpperCase());
+  return str.toUpperCase();
 }
 
-makeUpperCase('hello');
+console.log(makeUpperCase('hello'));
