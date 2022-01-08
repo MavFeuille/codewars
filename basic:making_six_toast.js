@@ -5,3 +5,5 @@ const sixToast = (num) => {
     return num - 6;
   }
 }
+
+console.log(sixToast(6));
