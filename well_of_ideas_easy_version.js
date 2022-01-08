@@ -7,13 +7,7 @@ const well = (x) => {
     }
   }
 
-  if (countGood <= 0){
-    return "Fail!";
-  } else if (countGood  > 2) {
-    return "I smell a series!";
-  } else {
-    return "Publish!"
-  }
+  return countGood <= 0 ? "Fail!" : countGood > 2 ? "I smell a series!" : "Publish!" ;
 }
 
 console.log(well(['bad', 'bad', 'bad']));
