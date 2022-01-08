@@ -1,12 +1,6 @@
 const well = (x) => {
-  let countGood = 0;
-
-  for (const item of x) {
-    if (item === 'good') {
-     countGood += 1;
-    }
-  }
-
+  let countGood = x.filter(x => x === 'good').length;
+  
   return countGood <= 0 ? "Fail!" : countGood > 2 ? "I smell a series!" : "Publish!" ;
 }
 
