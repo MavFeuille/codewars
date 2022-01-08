@@ -1,5 +1,4 @@
 const well = (x) => {
-  let countBad = 0;
   let countGood = 0;
 
   for (const item of x) {
@@ -9,6 +8,8 @@ const well = (x) => {
       countGood += 1;
     }
   }
+
+  if (countGood > 0)
   // console.log('countBad', countBad);
   // console.log('countGood', countGood);
 }
