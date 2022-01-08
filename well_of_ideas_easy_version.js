@@ -8,7 +8,7 @@ const well = (x) => {
   }
 
   if (countGood <= 0){
-    return "Fail";
+    return "Fail!";
   } else if (countGood  > 2) {
     return "I smell a series!";
   } else {
