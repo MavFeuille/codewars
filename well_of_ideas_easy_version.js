@@ -9,8 +9,8 @@ const well = (x) => {
       countGood += 1;
     }
   }
-  console.log('countBad', countBad);
-  console.log('countGood', countGood);
+  // console.log('countBad', countBad);
+  // console.log('countGood', countGood);
 }
 
 console.log(well(['bad', 'bad', 'bad']));
