@@ -1,0 +1,3 @@
+const checkForFactor = (base, factor) => {
+  
+}
