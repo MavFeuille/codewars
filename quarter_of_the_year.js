@@ -11,3 +11,7 @@ const quarterOf = (month) => {
     return quarter = 4;
   }
 }
+
+console.log(quarterOf(3));
+console.log(quarterOf(8));
+console.log(quarterOf(11));
