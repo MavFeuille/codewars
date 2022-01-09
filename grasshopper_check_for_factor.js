@@ -6,3 +6,5 @@ const checkForFactor = (base, factor) => {
   }
 }
 
+console.log(checkForFactor(10, 2));
+console.log(checkForFactor(24617,3));
