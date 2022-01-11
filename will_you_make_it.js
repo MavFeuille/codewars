@@ -1,9 +1,11 @@
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-  if (distanceToPump <= mpg * fuelLeft) {
-    return true;
-  } else {
-    return false;
-  }
+  // if (distanceToPump <= mpg * fuelLeft) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+
+  return distanceToPump <= mpg * fuelLeft ?  true : false;
 }
 
 console.log(zeroFuel(100, 50, 1));
