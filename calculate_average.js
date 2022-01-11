@@ -6,7 +6,6 @@ const find_average = (array) => {
     sum += item;
   }
   average = sum / array.length;
-
   return average;
 }
 
