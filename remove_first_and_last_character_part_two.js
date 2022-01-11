@@ -1,5 +1,5 @@
 const array = (arr) => {
-  if (arr.length < 3 || arr.length === null) {
+  if (arr.length < 5 || arr.length === null) {
     return null;
   } else {
    let characters = arr.split(',')
@@ -12,6 +12,6 @@ const array = (arr) => {
 }
 
 console.log(array('1,2,3,4,5'));
-console.log(array(''));
+console.log("array ' ' :", array(''));
 console.log(array('1'));
-console.log(array('1, 2'));
+console.log("array 1, 2 : ", array('1, 2'));
