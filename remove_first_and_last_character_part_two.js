@@ -1,12 +1,13 @@
 const array = (arr) => {
-  if (arr.length < 5 || arr.length === null) {
-    return null;
-  } else {
-   let characters = arr.split(',')
-   characters.shift();
-   characters.pop();
-   return characters.join(' ');
-  }
+ let characters = arr.split(',')
+ characters.shift();
+ characters.pop();
+ 
+ if (characters.length) {
+  return characters.join(' ');
+ } else {
+   return null;
+ }
 }
 
 console.log(array('1,2,3,4,5'));
