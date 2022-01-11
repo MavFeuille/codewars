@@ -2,7 +2,7 @@ const enough = (cap, on, wait) => {
   if (cap >= on + wait) {
     return 0;
   } else {
-    return cap - on - wait;
+    return Maths.abs(cap - on - wait);
   }
 }
 
