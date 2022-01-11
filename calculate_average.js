@@ -5,7 +5,7 @@ const find_average = (array) => {
   for (const item of array) {
     sum += item;
   }
-  return sum/
+  return sum/array.length
 }
 
 console.log(find_average([1, 2, 3]));
