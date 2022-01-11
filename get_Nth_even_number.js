@@ -1,9 +1,6 @@
 const nthEven = (n) => {
-  if (n % 2 === 0) {
-    return n * 2 - 2;
-  } else {
-    return "Wrong value!"
-  }
+  return n * 2 - 2;
+  
 }
 
-console.log(nthEven(1));
+console.log(nthEven(100));
