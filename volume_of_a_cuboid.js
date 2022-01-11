@@ -4,3 +4,4 @@ class Kata {
   }
 }
 
+console.log(Kata.getVolumeOfCuboid(6.3, 2, 5));
