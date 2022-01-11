@@ -1,4 +1,8 @@
 const find_average = (array) => {
+  if (array.length === 0) {
+    return 0;
+  };
+
   let average = 0;
   let sum = 0;
 
@@ -9,3 +13,4 @@ const find_average = (array) => {
   return average;
 }
 
+console.log(find_average([1, 2, 3]));
