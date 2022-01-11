@@ -2,12 +2,8 @@ const array = (arr) => {
  let characters = arr.split(',')
  characters.shift();
  characters.pop();
- 
- if (characters.length) {
-  return characters.join(' ');
- } else {
-   return null;
- }
+
+ return characters.length ? characters.join(' ') : null;
 }
 
 console.log(array('1,2,3,4,5'));
