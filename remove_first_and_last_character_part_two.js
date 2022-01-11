@@ -5,3 +5,5 @@ const array = (arr) => {
     return arr.slice(1, -2);
   }
 }
+
+console.log(array('1,2,3,4,5'));
