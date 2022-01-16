@@ -2,7 +2,7 @@ const twoHighest = arr => {
    
   if (!arr.length) return []
 
-  let highest = 0;
+  let highest = arr[0];
   let secondHighest = 0;
 
   
@@ -13,8 +13,13 @@ const twoHighest = arr => {
       secondHighest = arr[i];
     }
   }
-  // console.log(secondHighest, highest)
-  return [secondHighest, highest]
+  
+  if (secondHighest === 0) {
+    return [highest];
+  } else {
+    return [highest, secondHighest]
+  }
 }
 
 console.log(twoHighest([15, 20, 20, 17]))
+console.log(twoHighest([0, 15]))
