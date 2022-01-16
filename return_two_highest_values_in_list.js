@@ -1,6 +1,4 @@
 const twoHighest = arr => {
-  arr.sort()
-  console.log(arr)
 
   let highest = 0;
   let secondHighest = 0;
@@ -12,6 +10,7 @@ const twoHighest = arr => {
       secondHighest = arr[i];
     }
   }
+  console.log(secondHighest, highest)
 }
 
 console.log(twoHighest([15, 20, 20, 17]))
