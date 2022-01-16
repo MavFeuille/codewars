@@ -1,4 +1,8 @@
 const digitize = n => {
-  let arr = [];
+  
 
+ 
+  
 }
+
+console.log(digitize(348597));
