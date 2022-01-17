@@ -1,11 +1,9 @@
 const twoHighest = arr => {
-   
   if (!arr.length) return []
 
   let highest = arr[0];
   let secondHighest = 0;
 
-  
   for (let i = 0; i < arr.length; i ++) {
     if (arr[i] > highest) {
       secondHighest = highest; //move the ex-highest to the second place
