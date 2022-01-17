@@ -8,6 +8,7 @@ const twoHighest = arr => {
   
   for (let i = 0; i < arr.length; i ++) {
     if (arr[i] > highest) {
+      secondHighest = highest; //move the ex-highest to the second place
       highest = arr[i];
     } else if (arr[i] > secondHighest && arr[i] < highest) {
       secondHighest = arr[i];
@@ -23,4 +24,4 @@ const twoHighest = arr => {
 
 console.log(twoHighest([15, 20, 20, 17]))
 console.log(twoHighest([0, 15]))
-console.log(twoHighest([61445,73576,37675,13561,828,70389,54739,22920,87784,61963]))
+console.log(twoHighest([37581,64431,90009,34605,18384,58710,1489,81086,22353,93642,23484,22726]))
