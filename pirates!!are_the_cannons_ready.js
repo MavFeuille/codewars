@@ -1,4 +1,7 @@
-const cannonsReady = (gunners) => {
+const a = {'Mike':'aye','Joe':'aye','Johnson':'aye','Peter':'aye'},
+      b = {'Mike':'aye','Joe':'nay','Johnson':'aye','Peter':'aye'};
+
+ cannonsReady = (gunners) => {
   for (prop in gunners) {
     if (gunners[prop] === 'nay') {
       return 'Shiver me timbers!'
@@ -7,3 +10,5 @@ const cannonsReady = (gunners) => {
     }
   }
 }
+
+console.log(cannonsReady(a));
