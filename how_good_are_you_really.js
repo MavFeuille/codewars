@@ -4,7 +4,11 @@ const betterThanAverage = (classPoints, yourPoints) => {
 
   let average = newArr.reduce((a, b) => a + b) / newArr.length
   // console.log("🚀 ~ file: how_good_are_you_really.js ~ line 6 ~ betterThanAverage ~ average", average)
-
+  if (yourPoints > average) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 console.log(betterThanAverage([2, 3], 5));
