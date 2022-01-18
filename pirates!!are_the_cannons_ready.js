@@ -12,3 +12,4 @@ const a = {'Mike':'aye','Joe':'aye','Johnson':'aye','Peter':'aye'},
 }
 
 console.log(cannonsReady(a));
+console.log(cannonsReady(b))
