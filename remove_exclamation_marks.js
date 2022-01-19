@@ -1,6 +1,5 @@
 const removeExclamationMarks = (s) => {
-  s.replace(/"!"/g, );
-  console.log(s);
+  return s.replace(/!/g, "");
 }
 
 console.log(removeExclamationMarks("Hello World!"));
