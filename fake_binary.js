@@ -8,7 +8,7 @@ const fakeBin = (x) => {
       output += '1'
     }
   }
-  console.log(output)
+  return output;
 }
 
 console.log(fakeBin('45385593107843568'));
