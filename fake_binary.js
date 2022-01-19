@@ -1,6 +1,6 @@
 const fakeBin = (x) => {
-  let xArr = x.split(' ');
-  // console.log(xArr)
+  let xNum = Number(x);
+  console.log("🚀 ~ file: fake_binary.js ~ line 3 ~ fakeBin ~ xNum", xNum)
 }
 
 console.log(fakeBin('45385593107843568'));
